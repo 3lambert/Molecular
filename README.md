@@ -1,10 +1,8 @@
-Litecoin - a lite version of Bitcoin optimized for CPU mining using scrypt as a proof of work scheme.
+Molecular - a clone of Litecoin optimized for CPU mining using scrypt as a proof of work scheme.
  - 2.5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
- - ~84 million total coins
-
-The rest is the same as bitcoin.
- - 50 coins per block
+ - subsidy halves in 50k blocks
+ - ~10 million total coins
+ - 1 coins per block
  - 2016 blocks to retarget difficulty
 
 Development process
@@ -20,7 +18,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of Litecoin.
+official, stable release versions.
 
 Feature branches are created when there are major new features being
 worked on by several people.
@@ -35,4 +33,3 @@ Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'. 
 
-Check out http://forum.litecoin.net/index.php/board,2.0.html for more info about the development.
